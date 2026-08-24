@@ -1,5 +1,3 @@
-# Travian Bot — Phone/Cloud Edition
-
 This edition is designed for an iPhone-only workflow. The bot itself runs in a cloud Linux container; you control it from Safari through a password-protected mobile dashboard.
 
 ## Dashboard controls
