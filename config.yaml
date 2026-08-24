@@ -1,0 +1,23 @@
+dry_run: true
+headless: true
+cycle_minutes: 10
+village_id: null
+
+features:
+  build_queue: true
+  farm_lists: false
+  refresh_status: true
+
+# Each item means: upgrade this slot until it reaches desired_level.
+# Slot IDs usually map to build.php?id=<slot>.
+build_queue:
+  - target: 1
+    desired_level: 2
+  - target: 2
+    desired_level: 2
+
+# Optional Travian farm-list IDs.
+farm_lists: []
+
+# If true, process only one successful construction per cycle.
+one_build_per_cycle: true
