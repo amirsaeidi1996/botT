@@ -1,0 +1,24 @@
+dry_run: true
+headless: false
+min_delay_seconds: 2.5
+max_delay_seconds: 6.5
+cycle_minutes: 10
+
+# Optional numeric village id. Leave null to use the currently selected village.
+village_id: null
+
+features:
+  collect_resources: true
+  build_queue: true
+  farm_lists: false
+
+# Build tasks are attempted from top to bottom.
+# target can be a field/building slot id when known.
+build_queue:
+  - target: 1
+    desired_level: 2
+  - target: 2
+    desired_level: 2
+
+# Farm-list IDs can be copied from the Rally Point farm-list page URL/HTML.
+farm_lists: []
